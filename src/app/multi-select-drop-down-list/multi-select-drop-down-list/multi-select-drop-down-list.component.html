@@ -1,0 +1,5 @@
+
+	<p>Selected Value: {{selectedValue}}</p>
+	<p>Item Text: {{itemText}}</p>
+	<p>Value Field: {{itemValue}}</p>
+	<kendo-dropdownlist #anchor [data]="data" [textField]="textField" [valueField]="valueField" (open)="$event.preventDefault()" (close)="$event.preventDefault()" (click)="onDropDownListClick(anchor)"></kendo-dropdownlist>
